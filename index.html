@@ -44,6 +44,18 @@
             bottom: 0;
             width: 100%;
         }
+
+        /* Estilos adicionales para el botón */
+        .interactive-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff5e00;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -68,8 +80,9 @@
         </section>
 
         <section>
-            <h3>Sección 2</h3>
-            <p>Contenido de la sección 2.</p>
+            <h3>Sección 2 con Botón de Interacción</h3>
+            <p>Contenido de la sección 2. Puedes interactuar con este botón:</p>
+            <button class="interactive-button" onclick="alert('¡Has hecho clic en el botón!')">Haz clic aquí</button>
         </section>
     </main>
 
