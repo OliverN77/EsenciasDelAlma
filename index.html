@@ -3,90 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ff5e00;
-        }
-
-        header {
-            background-color: #ff5e00;
-            color: black;
-            text-align: center;
-            padding: 1em;
-        }
-
-        nav {
-            background-color: #000000;
-            padding: 1em;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 1em;
-        }
-
-        main {
-            padding: 2em;
-        }
-
-        footer {
-            background-color: #000000;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-
-        /* Estilos adicionales para el botón */
-        .interactive-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #000000;
-            color: rgb(255, 72, 0);
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda de Perfumes</title>
 </head>
 <body>
-
     <header>
-        <h1>Mi Página Web</h1>
+        <div class="container">
+            <h1>Bienvenido a nuestra Tienda de Perfumes</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de Nosotros</a></li>
+                    <li><a href="#productos">Nuestro Perfume</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Acerca de</a>
-        <a href="#">Contacto</a>
-    </nav>
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Descubre la Esencia de la Elegancia</h2>
+            <p>Explora nuestra selección de perfumes exclusivos. Cada fragancia cuenta una historia única.</p>
+        </div>
+    </section>
 
-    <main>
-        <h2>Bienvenido a mi página web</h2>
-        <p>Esta es una página web demasiado humilde elaborada en 5 minutos.</p>
+    <section id="acerca" class="about">
+        <div class="container">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos apasionados por proporcionar experiencias sensoriales únicas a través de nuestras fragancias. Nuestros perfumes reflejan la elegancia y la sofisticación.</p>
+        </div>
+    </section>
 
-        <section>
-            <h3>Sección 1</h3>
-            <p>Contenido de la sección 1."no hay ni chimba 👍"</p>
-        </section>
+    <section id="productos" class="products">
+        <div class="container">
+            <h2>Nuestro Perfume Exclusivo</h2>
+            <button onclick="mostrarInformacion('Perfume Elegante', 'Una fragancia que te transporta a la elegancia pura.')">Ver Detalles</button>
+        </div>
+    </section>
 
-        <section>
-            <h3>Sección 2 con Botón de Interacción</h3>
-            <p>Contenido de la sección 2. Puedes interactuar con este botón:</p>
-            <p>¡Dale Clcik si te cae bien Lionel Messi👇👇!</p>
-            <button class="interactive-button" onclick="alert('¡Felicidades! Te metimos 50 troyanos👍')">Haz clic aquí</button>
-            <img src="https://media.admagazine.com/photos/637d11a6e63c8afac40e7a01/1:1/w_2896,h_2896,c_limit/1442809583" style="width: 125px; height: 125px;">
-        </section>
-    </main>
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
 
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar Consulta</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="informacion" class="info">
+        <div class="container">
+            <h2>Información del Perfume</h2>
+            <p>Nombre:Escencia del alma</p>
+            <p>Descripcion:Perfume con olor Dulce y acido,
+            <p>hecho a base de mandarina y limon,
+            <p>y es unisex.</p>
+            </p>    
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Tienda de Perfumes. Todos los derechos reservados.</p>
+            <img src="https://media.discordapp.net/attachments/1214352483120324670/1214352634442551347/at_12.25.54_PM.jpeg?ex=65f8cd05&is=65e65805&hm=59ff3029a7077879df73914ed98e0b2e0eab24787952aa0969dffcdc88ef6998&=&format=webp&width=441&height=441" alt="Imagen Final">
+        
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
