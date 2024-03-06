@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
         var generoPerfume = document.getElementById('generoPerfume');
 
         // Actualiza el contenido en la sección de información del perfume
-        nombrePerfume.innerText = 'Nombre: Zarafet';
+        nombrePerfume.innerText = 'Nombre: Androgenus';
         descripcionPerfume.innerText = 'Descripción: perfume con una esencia que experimenta lo dulce y lo ácido. Hecho a base de mandarina y limón.';
-        generoPerfume.innerText = 'Género: unisex.';
+        generoPerfume.innerText = 'Género: Androgeno.';
 
         // Desplaza la página hacia la sección de información del perfume
         window.location.href = '#informacion';

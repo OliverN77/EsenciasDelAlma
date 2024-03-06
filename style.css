@@ -13,14 +13,14 @@ h1{
     word-spacing: 5px;
     text-align: center;
     }
-
+ 
 img {
-    margin-left: 600px;
+    margin-left: 550px;
 
 }
 
 .imagen-derecha {
-    margin-left: 600px;
+    margin-left: 550px;
     
 }
 img{
@@ -35,9 +35,10 @@ img{
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+    background-image: url('https://media.discordapp.net/attachments/1214352483120324670/1214996526812897350/WhatsApp_Image_2024-03-06_at_10.27.07_AM.jpeg?ex=65fb24b1&is=65e8afb1&hm=41cad380600780a62238bcb4bd9491ea7e834fbad4914f38ac0438d6ccad6a58&=&format=webp&width=792&height=441');
+    background-size: cover;
+    color: #333;
+    padding: 20px ;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
@@ -148,3 +149,48 @@ footer {
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     margin-top: -10px;
 }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #242424;
+  }
+  
+ 
+  nav a:hover {
+    text-decoration: underline; 
+    color: #555; 
+  }
+
+  h2{
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+
+  h4{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  b{
+    font-family:'Times New Roman', Times, serif;
+  }
+  .recomendaciones {
+    font-size: 20px; 
+  }
+  
