@@ -9,8 +9,12 @@
 <body>
     <header>
         <div class="container">
-            <h1>Bienvenido a nuestra Tienda de Perfumes</h1>
-            <nav>
+            <h1><em> Bienvenido a nuestra Tienda de Perfumes</em></h1>       
+        </div>
+        
+        <img class="imagen-derecha" src="https://media.discordapp.net/attachments/1214352483120324670/1214391499664662588/WhatsApp_Image_2024-03-04_at_8.42.35_PM.jpeg?ex=65f8f137&is=65e67c37&hm=9b9911f20911e96fee7c56b79321d0e417f5193849e6f138fdd8de7e24ec3a69&=&format=webp&width=448&height=441">
+       
+        <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#acerca">Acerca de Nosotros</a></li>
@@ -28,12 +32,6 @@
         </div>
     </section>
 
-    <section id="acerca" class="about">
-        <div class="container">
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos apasionados por proporcionar experiencias sensoriales únicas a través de nuestras fragancias. Nuestros perfumes reflejan la elegancia y la sofisticación.</p>
-        </div>
-    </section>
 
     <section > <h3>Visión</h3> 
     <p> Lograr crear un producto que sea del agrado de sus consumidores para asi satisfacer las necesidades
@@ -46,19 +44,27 @@
     
 
     </section>
+
+    <section id="acerca" class="about">
+        <div class="container">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos apasionados por proporcionar experiencias sensoriales únicas a través de nuestras fragancias. Nuestros perfumes reflejan la elegancia y la sofisticación.</p>
+        </div>
+    </section>
               
 
     <section id="productos" class="products">
         <div class="container">
-            <h2>Nuestro Perfume Exclusivo</h2>
-            <button onclick="mostrarInformacion('Perfume Elegante', 'Una fragancia que te transporta a la elegancia pura.')">Ver Detalles</button>
+            <h2>Nuestro Perfume</h2>
+            <button id="mostrarInformacionBtn">Mostrar Información del Perfume</button>
         </div>
     </section>
+
 
     <section id="contacto" class="contact">
         <div class="container">
             <h2>Contacto</h2>
-            <form>
+            <form id="formularioContacto">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
 
@@ -73,26 +79,44 @@
         </div>
     </section>
 
+
+   
     <section id="informacion" class="info">
         <div class="container">
             <h2>Información del Perfume</h2>
-            <p>Nombre:Zarafet</p>
-            <p>Descripción: perfume con una esencia que experimenta lo dulce y lo ácido
-                Hecho a base de : mandarina y limón,
-            <p>Género: unisex.</p>
-            </p>    
-            </p>
+            <p id="nombrePerfume"><b>Nombre:</b> Androgenus</p>
+            <p id="descripcionPerfume"><b>Descripción:</b> perfume con una esencia que experimenta lo dulce y lo ácido. Hecho a base de mandarina y limón.</p>
+            <p id="generoPerfume"><b>Género:</b> Angrogeno.</p>
+
+            <b> ¿QUE TIENE QUE VER ANGROGENUS CON UN PERFUME?</b>
+            <p>Nuestra microempresa ha tomado la decisión de crear un perfume unisex para nuestros clientes, incorporando tanto el género masculino como el femenino. Este perfume contendrá feromonas de ambos tipos, una palabra que se relaciona con la unión de las clases de los seres vivos.</p>
+            <b>¿POR QUE UN PERFUME A BASE DE CITRICOS?</b>
+            <p>Optamos por un perfume a base de cítricos para fusionar lo dulce con lo agrío, logrando así un equilibrio de olores e ideas que transmitan la esencia de nuestro producto.</p>
+            <b> ¿QUE TIPO DE OCACIONES SON APTAS PARA LA UTILISACION DE ANDROGINIUS?</b>
+            <p> Androginius, el nombre elegido para nuestro perfume, es adecuado para todo tipo de ocasiones debido a su equilibrio de olores explosivos y llamativos tanto para ti como para tu entorno.</p>
+            <b>¿QUE DURACION TIENE NUESTRO PERFUME?</b>
+            <p>La duración de nuestro perfume es notable gracias a su generosa cantidad de fragancia y su buen uso. Se estima que perdura durante un tiempo prolongado.</p>
+            <b>Recomendaciones para el uso de nuestro perfume:</b>
+            <p><b>-</b>Mantenerlo en un espacio adecuado.</p>
+            <p><b>-</b>Aplicar de manera adecuada.</p>
+            <p><b>-</b>Aplicar en puntos de pulso</p>
+            <p><b>-</b>Evitar frotar.</p>
+            <p><b>-</b>Rociar ligeramente en cabello y ropa.</p>
+            <p><b>-</b>Rotar diferentes fragancias para no acostumbrarse rápidamente al olor.</p>
+            <p><b>-</b>Mantener una buena hidratación de la piel.</p>
+
+           
         </div>
     </section>
 
     <footer>
-        <div class="container">
+        <div class="container"> </div>
             <p>&copy; 2024 Tienda de Perfumes. Todos los derechos reservados.</p>
-            <img src="https://media.discordapp.net/attachments/1214352483120324670/1214391499664662588/WhatsApp_Image_2024-03-04_at_8.42.35_PM.jpeg?ex=65f8f137&is=65e67c37&hm=9b9911f20911e96fee7c56b79321d0e417f5193849e6f138fdd8de7e24ec3a69&=&format=webp&width=448&height=441">
+        
         
     </footer>
-
     <script src="script.js"></script>
+    
 </body>
 </html>
 
