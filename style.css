@@ -17,7 +17,7 @@ h1 {
 }
 
 .imagen-derecha {
-  max-width: 100%; /* La imagen no se puede expandir más allá de su tamaño original */
+  max-width: 100%;
   height: 80%;
   margin-top: 20px;
   margin-left: 45%;
