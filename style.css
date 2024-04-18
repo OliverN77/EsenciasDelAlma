@@ -201,3 +201,7 @@ strong {
 .container-ult {
   background: linear-gradient(#ba9);
 }
+
+strong{
+  font-size: 20px;
+}
